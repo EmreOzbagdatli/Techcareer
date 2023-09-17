@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hbn-ko-YRt">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Foods-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeWork3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="XEL-yp-Cql">
+                                <rect key="frame" x="16" y="119" width="150" height="150"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="DfJ-m3-E9D"/>
+                                    <constraint firstAttribute="height" constant="150" id="aBw-LZ-Ydz"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderRadius" value="40"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlp-zf-lUo">
+                                <rect key="frame" x="182" y="119" width="195" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHv-yX-60u">
+                                <rect key="frame" x="182" y="230" width="195" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pepper,Sausage,Tomato,Pork" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUl-1f-ToR">
+                                <rect key="frame" x="182" y="171" width="195" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hamburger" translatesAutoresizingMaskIntoConstraints="NO" id="KUT-Rx-KLM">
+                                <rect key="frame" x="16" y="301" width="150" height="150"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="TKE-71-nCP"/>
+                                    <constraint firstAttribute="height" constant="150" id="Xl7-lg-Xie"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderRadius" value="40"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCg-TV-42A">
+                                <rect key="frame" x="182" y="286" width="195" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3R-1R-db3">
+                                <rect key="frame" x="182" y="418.66666666666669" width="195" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120 gr Meat,Kethcup,Tomato,Onion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j29-UR-d5S">
+                                <rect key="frame" x="182" y="338" width="195" height="64.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tortilla" translatesAutoresizingMaskIntoConstraints="NO" id="un3-pC-gUs">
+                                <rect key="frame" x="16" y="483" width="150" height="150"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="QZv-RI-cUI"/>
+                                    <constraint firstAttribute="width" constant="150" id="q7S-XQ-cFO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderRadius" value="40"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tortilla" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eM4-d3-caR">
+                                <rect key="frame" x="182" y="474.66666666666669" width="195" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicken,Pepper,Onion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0e-KD-gKL">
+                                <rect key="frame" x="182" y="526.66666666666663" width="195" height="21.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qs-aP-9q9">
+                                <rect key="frame" x="182" y="564.33333333333337" width="195" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eM4-d3-caR" firstAttribute="top" secondItem="i3R-1R-db3" secondAttribute="bottom" constant="32" id="11i-4A-nfH"/>
+                            <constraint firstItem="0qs-aP-9q9" firstAttribute="leading" secondItem="un3-pC-gUs" secondAttribute="trailing" constant="16" id="5xw-Bj-5rl"/>
+                            <constraint firstItem="j29-UR-d5S" firstAttribute="leading" secondItem="KUT-Rx-KLM" secondAttribute="trailing" constant="16" id="7df-Md-pRK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j29-UR-d5S" secondAttribute="trailing" constant="16" id="AIb-gM-1Xm"/>
+                            <constraint firstItem="un3-pC-gUs" firstAttribute="top" secondItem="KUT-Rx-KLM" secondAttribute="bottom" constant="32" id="Bi4-f1-459"/>
+                            <constraint firstItem="lUl-1f-ToR" firstAttribute="leading" secondItem="XEL-yp-Cql" secondAttribute="trailing" constant="16" id="F2E-G0-0o1"/>
+                            <constraint firstItem="KUT-Rx-KLM" firstAttribute="top" secondItem="XEL-yp-Cql" secondAttribute="bottom" constant="32" id="IoX-cR-IHS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0qs-aP-9q9" secondAttribute="trailing" constant="16" id="JDc-2F-BLB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eM4-d3-caR" secondAttribute="trailing" constant="16" id="Kv2-bB-sOI"/>
+                            <constraint firstItem="OHv-yX-60u" firstAttribute="top" secondItem="lUl-1f-ToR" secondAttribute="bottom" constant="16" id="Mb0-3m-Q2s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e0e-KD-gKL" secondAttribute="trailing" constant="16" id="NRh-xD-I3i"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nlp-zf-lUo" secondAttribute="trailing" constant="16" id="PT5-Kc-dr7"/>
+                            <constraint firstItem="XEL-yp-Cql" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="PZd-1t-P7y"/>
+                            <constraint firstItem="e0e-KD-gKL" firstAttribute="top" secondItem="eM4-d3-caR" secondAttribute="bottom" constant="16" id="QBH-A4-khV"/>
+                            <constraint firstItem="j29-UR-d5S" firstAttribute="top" secondItem="jCg-TV-42A" secondAttribute="bottom" constant="16" id="QfS-0S-yMZ"/>
+                            <constraint firstItem="i3R-1R-db3" firstAttribute="top" secondItem="j29-UR-d5S" secondAttribute="bottom" constant="16" id="Qyp-No-cmF"/>
+                            <constraint firstItem="nlp-zf-lUo" firstAttribute="leading" secondItem="XEL-yp-Cql" secondAttribute="trailing" constant="16" id="Rmf-DF-9HS"/>
+                            <constraint firstItem="lUl-1f-ToR" firstAttribute="top" secondItem="nlp-zf-lUo" secondAttribute="bottom" constant="16" id="VGd-ga-oV3"/>
+                            <constraint firstItem="0qs-aP-9q9" firstAttribute="top" secondItem="e0e-KD-gKL" secondAttribute="bottom" constant="16" id="ZDo-s9-Efe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OHv-yX-60u" secondAttribute="trailing" constant="16" id="ZMU-1J-3ES"/>
+                            <constraint firstItem="e0e-KD-gKL" firstAttribute="leading" secondItem="un3-pC-gUs" secondAttribute="trailing" constant="16" id="cK5-CJ-HzX"/>
+                            <constraint firstItem="OHv-yX-60u" firstAttribute="leading" secondItem="XEL-yp-Cql" secondAttribute="trailing" constant="16" id="cft-4C-2Bc"/>
+                            <constraint firstItem="jCg-TV-42A" firstAttribute="leading" secondItem="KUT-Rx-KLM" secondAttribute="trailing" constant="16" id="duu-NJ-bwD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i3R-1R-db3" secondAttribute="trailing" constant="16" id="ecH-KV-0wz"/>
+                            <constraint firstItem="eM4-d3-caR" firstAttribute="leading" secondItem="un3-pC-gUs" secondAttribute="trailing" constant="16" id="ggy-hf-kNt"/>
+                            <constraint firstItem="i3R-1R-db3" firstAttribute="leading" secondItem="KUT-Rx-KLM" secondAttribute="trailing" constant="16" id="k45-ss-jti"/>
+                            <constraint firstItem="KUT-Rx-KLM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sQG-sg-Nn2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lUl-1f-ToR" secondAttribute="trailing" constant="16" id="v5R-7h-c2q"/>
+                            <constraint firstItem="XEL-yp-Cql" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="vZA-kZ-ca1"/>
+                            <constraint firstItem="un3-pC-gUs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="whh-tD-cee"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jCg-TV-42A" secondAttribute="trailing" constant="16" id="y1U-Fh-QgT"/>
+                            <constraint firstItem="jCg-TV-42A" firstAttribute="top" secondItem="OHv-yX-60u" secondAttribute="bottom" constant="32" id="yeq-Gq-QXL"/>
+                            <constraint firstItem="nlp-zf-lUo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="zLz-af-fsQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Foods" largeTitleDisplayMode="always" id="RRD-cW-HAT">
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="Ptx-lW-oLg">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="hamburgerDescription" destination="j29-UR-d5S" id="b1N-zq-J5x"/>
+                        <outlet property="hamburgerImageView" destination="KUT-Rx-KLM" id="mGJ-RX-mfw"/>
+                        <outlet property="hamburgerPrice" destination="i3R-1R-db3" id="23E-dy-GBY"/>
+                        <outlet property="hamburgerTxt" destination="jCg-TV-42A" id="lVf-tt-IU2"/>
+                        <outlet property="pizzaDescription" destination="lUl-1f-ToR" id="rte-sW-U0v"/>
+                        <outlet property="pizzaImageView" destination="XEL-yp-Cql" id="F6U-Br-nfT"/>
+                        <outlet property="pizzaPrice" destination="OHv-yX-60u" id="qbB-6a-oaP"/>
+                        <outlet property="pizzaTxt" destination="nlp-zf-lUo" id="QwF-E6-PKB"/>
+                        <outlet property="tortillaDescription" destination="e0e-KD-gKL" id="RWU-zC-zHy"/>
+                        <outlet property="tortillaImageView" destination="un3-pC-gUs" id="fhR-tY-q3w"/>
+                        <outlet property="tortillaPrice" destination="0qs-aP-9q9" id="ry8-uh-gaf"/>
+                        <outlet property="tortillaTxt" destination="eM4-d3-caR" id="RLs-CF-OAM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1086.2595419847328" y="687.32394366197184"/>
+        </scene>
+        <!--Charts-->
+        <scene sceneID="vaP-2D-0um">
+            <objects>
+                <viewController id="Y0K-lO-TfR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SUL-e0-xDC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="spe-5O-PPf"/>
+                        <color key="backgroundColor" systemColor="systemCyanColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Charts" image="basket.fill" catalog="system" selectedImage="basket.fill" id="28m-bh-2JO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="07A-8x-Aah" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2428.2442748091603" y="705.63380281690149"/>
+        </scene>
+        <!--Setting-->
+        <scene sceneID="n33-4i-QII">
+            <objects>
+                <viewController id="Pix-yf-qCh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="92Q-CX-G2j">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="kRa-yX-BWu"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Setting" image="person.fill" catalog="system" selectedImage="person.fill" id="XDS-hr-XEH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R2J-pR-uf4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3416.030534351145" y="705.63380281690149"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zH1-8b-cSU">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hbn-ko-YRt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xLe-Ux-erF">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="FtC-9h-rgC" kind="relationship" relationship="viewControllers" id="d7V-2h-8CT"/>
+                        <segue destination="Y0K-lO-TfR" kind="relationship" relationship="viewControllers" id="qc7-sF-EUC"/>
+                        <segue destination="Pix-yf-qCh" kind="relationship" relationship="viewControllers" id="v86-AD-Vrg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P8Q-Kb-tGJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="575" y="-200"/>
+        </scene>
+        <!--Foods-->
+        <scene sceneID="9tA-zT-GtW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FtC-9h-rgC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Foods" image="fork.knife.circle.fill" catalog="system" id="I8M-ZD-qwd"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9e1-jd-xQQ">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6FA-6p-jgn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjB-wQ-7Uu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159.54198473282443" y="687.32394366197184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="basket.fill" catalog="system" width="128" height="108"/>
+        <image name="fork.knife.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="hamburger" width="253" height="199"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="pizza" width="500" height="500"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="tortilla" width="566" height="441"/>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
