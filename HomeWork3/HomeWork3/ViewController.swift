@@ -50,8 +50,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func addBtn(_ sender: Any) {
-    }
+
     
 }
 
